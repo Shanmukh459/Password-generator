@@ -15,14 +15,4 @@ Screeshots of the application:
 
 ![image](https://github.com/Shanmukh459/Password-generator/assets/52078988/3cee5867-1abf-4585-914b-8ac7ec739cd7)
 
-
-Quick start:
-
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
-
 Happy Coding!
