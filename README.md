@@ -2,8 +2,21 @@
 
 - These days we find in almost all the websites whenever we sign up they have a suggested password option which gives a strong password suggestion.
 - I tried to recreate this option where on pressing a button two random strong passwords are generated.
-- Tech used: HTML, CSS, JavaScript
-- Deployed at: 
+
+## Features
+
+- This application gives the users to enter the desired length of the password.
+- Upon generation, if user clicks on a password it will be automatically copied to clipboard.
+
+## Tech
+
+- HTML
+- CSS 
+- JavaScript
+
+## Deployment
+
+- 
 
 Screeshots of the application:
 

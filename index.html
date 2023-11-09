@@ -1,5 +1,9 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
@@ -7,11 +11,13 @@
             <h1>Generate a</h1> 
             <h1 class="color-h1">random password</h1>
             <p class="tag-line">Never use an insecure password again</p>
+            <p class="input-label">Enter Password length (optional):</p>
+            <input id="pwd-len" type="text">
             <button onclick="generatePassword()">Generate passwords</button>
             <hr>
             <div id="pwd-container">
-                <p id="pwd1"></p>
-                <p id="pwd2"></p>
+                <p id="pwd1" onclick="copyText1()"></p>
+                <p id="pwd2" onclick="copyText2()"></p>
             </div>
         </div>
         

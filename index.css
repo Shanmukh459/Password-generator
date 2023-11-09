@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background: #273549;
+    font-family: 'Inter', sans-serif;
 }
 
 #main {
@@ -14,7 +15,7 @@ body {
     padding-left: 40px;
     margin-top: 40px;
     border-radius: 8px;
-    box-shadow: 0 0 10px #D5D4D8;
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.8);
 }
 
 h1 {
@@ -26,9 +27,25 @@ h1 {
 
 .tag-line {
     color: #6B7280;
-    margin: 10px 0 30px;
+    margin: 10px 0 50px;
     font-size: 20px;
     line-height: 28px;
+}
+
+.input-label {
+    color: #6B7280;
+    margin: 0;
+}
+
+#pwd-len {
+    width: 100px;
+    border: none;
+    color: #10B981;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    border: 1px solid #10B981;
 }
 
 button {
@@ -40,6 +57,7 @@ button {
     border-radius: 8px; 
     margin-bottom: 40px;
     cursor: pointer;
+    font-family: 'Inter', sans-serif;
 }
 
 hr {
@@ -62,13 +80,14 @@ hr {
 #pwd1, #pwd2 {
     width: 250px;
     background: #273549;
-    padding: 10px 40px;
+    padding: 10px 30px;
     text-align: center;
     color: #5DEF92;
     border-radius: 6px;
     gap: 30px;
     margin: 40px 0;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 #pwd1 {

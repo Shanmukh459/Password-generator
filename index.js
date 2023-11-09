@@ -14,11 +14,24 @@ function generatePassword() {
 }
 
 function getPassword() {
+    const pwdLength = document.getElementById("pwd-len")
+    const len = pwdLength.value ? pwdLength.value : 15
     let tempPass= ""
-    for (let i = 0; i < 15; i++){
+
+    for (let i = 0; i < len; i++){
         tempPass += characters[Math.floor(Math.random() * characters.length)]
     }
     return tempPass
+}
+
+function copyText1() {  
+    navigator.clipboard.writeText(passwordEl1.innerText)
+    alert("Copied the text: " + passwordEl1.innerText)
+}
+
+function copyText2() {  
+    navigator.clipboard.writeText(passwordEl2.innerText)
+    alert("Copied the text: " + passwordEl2.innerText)
 }
 
 
