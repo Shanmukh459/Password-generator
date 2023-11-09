@@ -22,10 +22,22 @@ Screeshots of the application:
 
 ### Before clicking the generate button:
 
-![image](https://github.com/Shanmukh459/Password-generator/assets/52078988/f5c3fdbd-1897-4288-ba79-4ec4b8694b45)
+![image](https://github.com/Shanmukh459/Password-generator/assets/52078988/5898f582-9341-4cec-a627-c95b47f83d22)
+
 
 ### After the passwords are generated:
 
-![image](https://github.com/Shanmukh459/Password-generator/assets/52078988/3cee5867-1abf-4585-914b-8ac7ec739cd7)
+![image](https://github.com/Shanmukh459/Password-generator/assets/52078988/9a7ac0ae-fe05-4897-85cc-b9b94b332f7b)
+
+### Using the custom length:
+
+![image](https://github.com/Shanmukh459/Password-generator/assets/52078988/6e4a11a0-13f9-4742-bb1c-e1dd53c23997)
+
+### Copying to clipboard:
+
+![image](https://github.com/Shanmukh459/Password-generator/assets/52078988/4f2fe784-47af-474f-ae73-86e7abfc8437)
+
+
+
 
 Happy Coding!
